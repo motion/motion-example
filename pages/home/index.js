@@ -1,4 +1,4 @@
-import component from './component'
+import component from '../../component'
 
 @component
 export default class Home {
