@@ -1,8 +1,10 @@
-import style from 'motion-style'
+import styler from 'motion-style'
 import browser from 'detect-browser'
 import event from 'disposable-event'
 import { CompositeDisposable } from 'sb-event-kit'
 import { Component } from 'react'
+
+const style = styler()
 
 export default function ComponentDecorate(component) {
   class ProxyComponent {
