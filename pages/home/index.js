@@ -9,4 +9,10 @@ export default class Home {
       </root>
     )
   }
+
+  static style = {
+    root: {
+      background: '#eee'
+    }
+  }
 }
